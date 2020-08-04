@@ -1,0 +1,93 @@
+/*
+    CSS
+    Castading
+      Em cascata
+    Stylesheet
+      Folha de estilo
+ */
+  
+ 
+ :root { /*Variaveis de cor CSS */
+     --color-background: #F0F0F7; 
+     --color-primary-lighter: #9871F5;
+     --color-primary-light: #916BEA;
+     --color-primary: #8257E5;
+     --color-primary-dark: #774DD6;
+     --color-primary-darker: #6842c2;
+     --color-secondary: #04D361;
+     --color-secondary-dark: #04BF58;
+     --color-title-in-primary: #FFFFFF;
+     --color-text-in-primary: #D4C2FF;
+     --color-text-title: #32264D;
+     --color-text-complement: #9C98A6;
+     --color-text-base: #6A6180;
+     --color-line-in-white: #E6E6F0;
+     --color-input-background: #F8F8FC;
+     --color-button-text: #FFFFFF;
+     --color-box-base: #FFFFFF;
+     --color-box-footer: #FAFAFC;
+     --color-small-info: #C1BCCC;
+/*tamanho da fonte padrão 16px = 100% = 1rem*/
+
+     font-size: 60%; /* controle das medidas rem */
+ }
+ *{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; /*borda da caixa */
+ }
+ html,
+ body {
+ height: 100vh; /*height= Altura irá dar ao html e ao body a altura de 100vh */
+ }
+ 
+  body {
+  background: var(--color-background);
+  display: flex; /*exibição flexivel/maleavel*/ 
+  align-items: center;/*alinhação dos itens ao centro */
+  justify-content: center;
+  }
+  body,
+  input,
+  button,
+  textarea{
+    font: 500 1.6rem poppins; /*O font setará para o body, input, button e textarea
+    os respectivos valores de peso, tipo e tamanho de fonte */
+    
+    /*
+    font-weight: 500 => o peso da fonte
+    font-family: Poppins => o tipo da fonte
+    font-size: 1.6rem => o tamanho da fonte
+    */
+    color: var(--color-text-base);
+
+  }
+
+  #container {
+    width: 90vw; /*Width= largura */
+    max-width: 700px;
+/*
+vw=viewport width -> largura da janela de visualização.
+vh=viewport height -> altura da janela de visualização.
+*/
+
+  }
+
+ 
+   /*padding: 10px 40px 100px;*/ /* sentido horario da caixa começando pela linha de cima direita baixo e esquerda */
+   /*padding-top: 10px; Alterar o preenchimento da linha do topo da pagina especificamente*/
+   /*padding-right: 40px; Alterar o preenchimento da linha esqueda da pagina especificamente*/
+   /*padding-left: 20px; Alterar o preenchimento da linha direita da minha pagina especificamente*/
+   /*padding-bottom: 20px; Alterar o preenchimento da linha de baixo da minha pagina especificamente*/
+   
+ 
+   /*margin: 60px; Setar a margem da pagina */
+   /*width: 300px; Largura da pagina */
+   /*height: 300px; Altura da pagina */
+  
+
+
+
+ 
+ 
+
