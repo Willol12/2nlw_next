@@ -79,6 +79,12 @@ Language
     
     <main>
     
+      {% if proffys == '' %}
+      <p style="
+      font-size: 30px;" 
+      class="no-results"> Nenhum professor encontrado pela sua pesquisa. </p>
+      {%else%}
+    
       {%for proffy in proffys %}
       <article class="teacher-item">
         <header>
@@ -102,6 +108,8 @@ Language
         </footer>
     </article>
       {%endfor%}
+
+      {% endif %}
     
   
     </main>
